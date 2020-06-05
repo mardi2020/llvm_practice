@@ -3,8 +3,10 @@ source_filename = "hello.c"
 target datalayout = "e-m:o-i64:64-f80:128-n8:16:32:64-S128"
 target triple = "x86_64-apple-macosx10.15.0"
 
+; 전역 상수로서 string constant를 선언
 @.str = private unnamed_addr constant [7 x i8] c"Hello\0A\00", align 1
 
+; 메인 함수 정의
 ; Function Attrs: noinline nounwind optnone ssp uwtable
 define i32 @main() #0 {
   %1 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str, i64 0, i64 0))
