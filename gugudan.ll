@@ -7,11 +7,11 @@ target triple = "x86_64-apple-macosx10.15.0"
 
 ; Function Attrs: noinline nounwind optnone ssp uwtable
 define i32 @main() #0 {
-  %1 = alloca i32, align 4
-  %2 = alloca i32, align 4
-  %3 = alloca i32, align 4
-  store i32 0, i32* %1, align 4
-  store i32 1, i32* %2, align 4
+  %1 = alloca i32, align 4 ; i
+  %2 = alloca i32, align 4 ; j
+  %3 = alloca i32, align 4 ; ?..너는 누구
+  store i32 0, i32* %1, align 4 ; i = 0
+  store i32 1, i32* %2, align 4 ; j = 1
   br label %4
   ; br instruction은 BUN(Branch unconditionally), BSA(분기하고, save the return address)과 같음
   ; 1) 조건분기의 형식은 하나의 i1 값과 두개의 label 값이 필요
