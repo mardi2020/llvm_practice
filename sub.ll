@@ -5,22 +5,22 @@ target triple = "x86_64-apple-macosx10.15.0"
 
 ; Function Attrs: noinline nounwind optnone ssp uwtable
 define i32 @main() #0 {
-  %1 = alloca i32, align 4
-  %2 = alloca i32, align 4
-  %3 = alloca i32, align 4
-  %4 = alloca i32, align 4
-  store i32 4, i32* %1, align 4
-  store i32 2, i32* %2, align 4
-  store i32 0, i32* %3, align 4
-  %5 = load i32, i32* %1, align 4
-  %6 = load i32, i32* %2, align 4
-  %7 = sub nsw i32 %5, %6
-  store i32 %7, i32* %3, align 4
-  store i32 0, i32* %4, align 4
-  %8 = load i32, i32* %2, align 4
-  %9 = load i32, i32* %1, align 4
-  %10 = sub nsw i32 %8, %9
-  store i32 %10, i32* %4, align 4
+  %1 = alloca i32, align 4 ; a
+  %2 = alloca i32, align 4 ; b
+  %3 = alloca i32, align 4 ; c
+  %4 = alloca i32, align 4 ; d
+  store i32 4, i32* %1, align 4 ; a = 4
+  store i32 2, i32* %2, align 4 ; b = 2
+  store i32 0, i32* %3, align 4 ; c = 0
+  %5 = load i32, i32* %1, align 4 ; load a
+  %6 = load i32, i32* %2, align 4 ; load b
+  %7 = sub nsw i32 %5, %6 ; a - b
+  store i32 %7, i32* %3, align 4 ; store a-b in c
+  store i32 0, i32* %4, align 4 ; d = 0
+  %8 = load i32, i32* %2, align 4 ; load b
+  %9 = load i32, i32* %1, align 4 ; load a
+  %10 = sub nsw i32 %8, %9 ; b - a
+  store i32 %10, i32* %4, align 4 ; store b-a in d
   ret i32 0
 }
 
