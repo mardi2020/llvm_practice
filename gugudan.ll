@@ -19,9 +19,11 @@ define i32 @main() #0 {
 
 4:                                                ; preds = %20, %0
   %5 = load i32, i32* %2, align 4 ; load j
-  %6 = icmp slt i32 %5, 10 ; icmp intsruction은 boolean 값이나 그것의 벡터를 반환함, slt(Signed Less Than) : op1 >= op2이면 true
+  %6 = icmp slt i32 %5, 10 
+  ; icmp intsruction은 boolean 값이나 그것의 벡터를 반환함, slt(Signed Less Than) : op1 >= op2이면 true
   ; inner loop에서 j값 확인
   br i1 %6, label %7, label %23 ; 조건 분기
+  ; 만약 j가 10 넘었다면 %23로 분기, 아니면 %7로 진행
 
 7:                                                ; preds = %4
   store i32 1, i32* %3, align 4
