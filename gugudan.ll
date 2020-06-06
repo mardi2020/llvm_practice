@@ -13,7 +13,7 @@ define i32 @main() #0 {
   store i32 0, i32* %1, align 4 ; i = 0
   store i32 1, i32* %2, align 4 ; j = 1
   br label %4
-  ; br instruction은 BUN(Branch unconditionally), BSA(분기하고, save the return address)과 같음
+  ; br instruction
   ; 1) 조건분기의 형식은 하나의 i1 값과 두개의 label 값이 필요 br i1 <condition>, label <iftrue>, label <iffalse>
   ; 2) 무조건분기의 형식은 타겟에 대한 하나의 label 값만 필요 br label <dest>
 
