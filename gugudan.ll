@@ -14,13 +14,13 @@ define i32 @main() #0 {
   store i32 1, i32* %2, align 4 ; j = 1
   br label %4
   ; br instruction은 BUN(Branch unconditionally), BSA(분기하고, save the return address)과 같음
-  ; 1) 조건분기의 형식은 하나의 i1 값과 두개의 label 값이 필요
-  ; 2) 무조건분기의 형식은 타겟에 대한 하나의 label 값만 필요
+  ; 1) 조건분기의 형식은 하나의 i1 값과 두개의 label 값이 필요 br i1 <condition>, label <iftrue>, label <iffalse>
+  ; 2) 무조건분기의 형식은 타겟에 대한 하나의 label 값만 필요 br label <dest>
 
 4:                                                ; preds = %20, %0
-  %5 = load i32, i32* %2, align 4
-  %6 = icmp slt i32 %5, 10
-  br i1 %6, label %7, label %23
+  %5 = load i32, i32* %2, align 4 ; load j
+  %6 = icmp slt i32 %5, 10 ; icmp intsruction은 boolean 값이나 그것의 벡터를 반환함, slt(Signed Less Than) : op1 >= op2이면 true
+  br i1 %6, label %7, label %23 ; 조건 분기
 
 7:                                                ; preds = %4
   store i32 1, i32* %3, align 4
