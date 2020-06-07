@@ -7,17 +7,23 @@ target triple = "x86_64-apple-macosx10.15.0"
 
 ; Function Attrs: noinline nounwind optnone ssp uwtable
 define i32 @main() #0 {
-  %1 = alloca i32, align 4
-  %2 = alloca i32, align 4
-  %3 = alloca i32, align 4
-  store i32 0, i32* %1, align 4
-  store i32 1, i32* %2, align 4
+  %1 = alloca i32, align 4 ; i
+  %2 = alloca i32, align 4 ; j
+  %3 = alloca i32, align 4 ; ?..너는 누구
+  store i32 0, i32* %1, align 4 ; i = 0
+  store i32 1, i32* %2, align 4 ; j = 1
   br label %4
+  ; br instruction
+  ; 1) 조건분기의 형식은 하나의 i1 값과 두개의 label 값이 필요 br i1 <condition>, label <iftrue>, label <iffalse>
+  ; 2) 무조건분기의 형식은 타겟에 대한 하나의 label 값만 필요 br label <dest>
 
 4:                                                ; preds = %20, %0
-  %5 = load i32, i32* %2, align 4
-  %6 = icmp slt i32 %5, 10
-  br i1 %6, label %7, label %23
+  %5 = load i32, i32* %2, align 4 ; load j
+  %6 = icmp slt i32 %5, 10 
+  ; icmp intsruction은 boolean 값이나 그것의 벡터를 반환함, slt(Signed Less Than) : op1 >= op2이면 true
+  ; inner loop에서 j값 확인
+  br i1 %6, label %7, label %23 ; 조건 분기
+  ; 만약 j가 10 넘었다면 %23로 분기, 아니면 %7로 진행
 
 7:                                                ; preds = %4
   store i32 1, i32* %3, align 4
