@@ -131,12 +131,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
-
-
+박우진 - amdx1254@khu.ac.kr
+이한솔 - mardi@khu.ac.kr
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
