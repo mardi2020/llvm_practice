@@ -131,7 +131,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-박우진 - amdx1254@khu.ac.kr
+박우진 - amdx1254@khu.ac.kr <br>
 이한솔 - mardi@khu.ac.kr
 
 <!-- ACKNOWLEDGEMENTS -->
