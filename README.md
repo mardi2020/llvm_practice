@@ -5,11 +5,10 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Build & Installation](#Build-&-Installation)
+* [Installation](#Installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contact](#contact)
-
 
 
 <!-- ABOUT THE PROJECT -->
