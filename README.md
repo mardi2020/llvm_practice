@@ -1,7 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
 
@@ -9,41 +5,21 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Build & Installation](#Build-&-Installation)
+* [Build & Installation](#Build-&-Installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-`[![Product Name Screen Shot][product-screenshot]](https://example.com)`
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
-
-
-### Built With
-
-* []()
-* []()
-* []()
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Build & Installation
+## Build & Installation
  
 1. Clone the repo
 ```
@@ -80,14 +56,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -112,13 +80,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 박우진 - amdx1254@khu.ac.kr <br>
 이한솔 - mardi@khu.ac.kr
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
 
 
