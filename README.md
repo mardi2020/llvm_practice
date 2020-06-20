@@ -5,7 +5,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Installation](#Installation)
+* [Build](#Build)
 * [Usage](#usage)
 * [License](#license)
 * [Contact](#contact)
