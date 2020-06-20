@@ -3,7 +3,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 <!-- TABLE OF CONTENTS -->
@@ -12,7 +11,7 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Installation](#installation)
+  * [Build & Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -45,7 +44,7 @@ Here's a blank template to get started:
 
 To get a local copy up and running follow these simple steps.
 
-### Installation
+### Build & Installation
  
 1. Clone the repo
 ```
@@ -63,7 +62,7 @@ mkdir ./JJS_Project1/src/build
 ```
 cd ./JJS_Project1/src/build
 ```
-5. Create 엘엘브엠 클랭 빌드관련 파일 생성
+5. Create LLVM Clang build file
 ```
 cmake -DLLVM_ENABLE_PROJECTS=clang -G "Unix Makefiles" ../llvm
 ```
@@ -138,6 +137,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
