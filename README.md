@@ -65,3 +65,6 @@ LLVM([https://github.com/llvm-mirror/llvm](https://github.com/llvm-mirror/llvm))
 ## Contact
 2015104175 박우진 - amdx1254@khu.ac.kr <br>
 2017110275 이한솔 - mardi@khu.ac.kr
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
